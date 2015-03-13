@@ -7,7 +7,7 @@
 - Which RESTful routes share the same URL but use different verbs?
   - (index, create), (show, update, delete) 
 - How do you specify an ID or other variable in a route?
-  - ":<variable_name>"
+  - ":[variable_name]", which is then accessed through the params hash
 - How can you easily write all seven RESTful routes in Rails?
   - put "resources :[controller_to_route]" in config/routes.rb
 - What is the Rails helper method that creates the HTML for links?
