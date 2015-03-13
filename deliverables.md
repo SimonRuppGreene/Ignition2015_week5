@@ -9,9 +9,9 @@
 - How do you specify an ID or other variable in a route?
   - ":<variable_name>"
 - How can you easily write all seven RESTful routes in Rails?
-  - put "resources :<controller_to_route>" in config/routes.rb
+  - put "resources :[controller_to_route]" in config/routes.rb
 - What is the Rails helper method that creates the HTML for links?
-  - "link_to 'display text', <path>"
+  - "link_to 'display text', [path]"
 
 ##### Odin Project Views Guide Questions:
 - What is a layout?
